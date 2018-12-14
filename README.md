@@ -46,6 +46,10 @@ This audio event classifier can generate several recognized tags for given audio
 - --left/right: select the context window, for example, left 3 and right 1 means the recoginition for this current second is based on the context from previous 3 second to later 1 second.
 - --threshold: classes with predicted probablities higher than the threhold will be outputted into subtitle files. Users can adjust them mannualy according to their need.
 - --show_music_speech: decide if the two most common classes will be show in the subtitles. This is normally set to 'n/False/0'.
+###### Output files:
+- '.srt' is subtitle file having the recognized tags for each second. 
+- '.pickle' contains probabilties for all classes. For example a matrix could have shape (100, 527) representing the 527 probabilities for the 100 seconds audio.
+- '.html' is an intereactive web visulization of the matrix.
 
 ## References:
 ###### scientific paper:
