@@ -6,8 +6,11 @@ This audio event classifier can generate several recognized tags for given audio
 ###### For the folder with name 'train':
  - Dataset: 
     download converted numpy data from:
+    
     https://drive.google.com/open?id=0B49XSFgf-0yVQk01eG92RHg4WTA
+    
     tensorflow type data are from (no need to download):
+    
     https://research.google.com/audioset/download.html
 
 ###### For the folder with name 'tagger':
@@ -44,7 +47,7 @@ This audio event classifier can generate several recognized tags for given audio
 - --threshold: classes with predicted probablities higher than the threhold will be outputted into subtitle files. Users can adjust them mannualy according to their need.
 - --show_music_speech: decide if the two most common classes will be show in the subtitles. This is normally set to 'n/False/0'.
 
-## Reference:
+## References:
 ###### scientific paper:
 
 Hershey, Shawn, et al. "CNN architectures for large-scale audio classification." Acoustics, Speech and Signal Processing (ICASSP), 2017 IEEE International Conference on. IEEE, 2017.
